@@ -8,6 +8,11 @@ package base;
 import java.util.Scanner;
 
 public class Solution01 {
+    /*
+    print "What's your name?"
+    "name" = string input from user
+    print "Hello 'name' nice to meet you!"
+     */
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args){
@@ -15,7 +20,5 @@ public class Solution01 {
         String name = input.nextLine();
 
         System.out.println("Hello, " +name+ ", nice to meet you!");
-
-
     }
 }
