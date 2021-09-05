@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Solution01 {
     /*
     print "What's your name?"
-    "name" = string input from user
+    'name' = read string from user
     print "Hello 'name' nice to meet you!"
      */
     private static Scanner input = new Scanner(System.in);
